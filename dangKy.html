@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Văn Hậu _ Nguyễn Ngọc Tình</title>
+  <script src="dangkyinfo.js"></script>
+  <link rel="stylesheet" href="file/demo3_dk.css">
+
+</head>
+<body>
+    <div class="tongbo">
+        <h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+    <form action="connect.php" method="post" name="dangky">
+        <div class="maso">
+            <label for="">Mã sinh viên</label> <br>
+            <input style="width: 450px; height: 30px;" name="maso"  type="text" id="mssv"> <br>     
+        </div>
+
+
+        <div class="hoten">
+            <label for="">Họ và tên</label> <br>
+            <input style="width: 450px; height: 30px;" name="name " type="text" id="ht"> <br>
+        </div>
+
+
+        <div class="Email">
+            <label for="">Email</label> <br>
+            <input style="width: 450px; height: 30px;" name="email" type="text" id="email"><br>
+        </div>
+
+
+
+        <div class="gioitinh">
+            <label for="">Giới tính</label> <br>
+            <div class="vien">
+                 <input type="radio" name="gender" id="nam_1"  value="nam">
+                    Nam
+                   <input type="radio"name="gender" id="nu_1" value="nu">
+                    Nữ
+                    <br>
+            </div>
+        </div>
+        <br>
+
+        <div class="sothich">
+            <label>Sở thích</label>
+            <div class="vien2"> 
+              
+                <input name="sothich" value="ds" type="checkbox">Đọc sách 
+                <input name="sothich" value="dl" type="checkbox">Du lịch
+                <input name="sothich" value="an" type="checkbox">Âm nhạc
+                <input name="sothich" value="at" type="checkbox">Ẩm thực
+                <input name="sothich" value="kh" type="checkbox">Khác 
+                <br>
+            </div>
+           
+        </div>
+         <br>
+        <div class="Quoctich">
+            <label for="">Quốc tịch</label><br>
+            <select style="width: 450px; height: 30px;" name="" id="">
+                <option name="quoctich" value="1">Chọn quốc tịch</option>
+                <option  name="quoctich" value="2">TPHCM</option>
+                <option  name="quoctich" value="3">Đà Nẵng</option>
+                <option  name="quoctich" value="4">Nha Trang </option>
+            </select>
+
+        </div>
+
+
+        <br>
+
+
+
+        <div class="ghichu">
+            <label for="">Ghi chú</label> <br>
+            <textarea name="ghichu" id="note" name="note" cols="50" rows="6" maxlength="200" placeholder="ít hơn 200 chữ">
+
+            </textarea>
+            <br>
+
+        </div>
+               
+        <input style="border-radius: 10px; width: 100px; height: 50px; background-color: bisque;" onclick="send()"
+         type="button" value="Đăng ký">
+
+
+
+       
+    </form>
+
+
+    </div>
+   
+  
+ 
+</body>
+</html>

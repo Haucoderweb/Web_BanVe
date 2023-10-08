@@ -1,0 +1,324 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+   font-size: 1rem;
+}
+.row{
+    float:left;
+    width:100%;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+
+header img{
+    width: 100%;
+}
+
+
+nav{
+    background-color:white;
+    min-height: 38px ;  
+    line-height:29px;
+    text-align: center;  
+    padding:0;
+    margin: 0;
+    position: relative;
+
+}
+
+
+.topnav{
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    position: absolute; 
+}
+.topnav a{
+    float:left;
+    display: block;
+    color:black;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    
+
+}
+
+.topnav a:hover{
+    background-color: purple;
+    color:white;
+}
+
+nav a{
+    color:white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin:0 10px;
+    word-spacing: 1px;
+}
+
+article{
+    background-color:rgb(216, 215, 215);
+    float: left;
+    width: 75%;
+    min-height: 1500px;
+   
+}
+
+aside{
+    float:left;
+    width:25%;
+    min-height:1500px;
+    background-color: rgb(216, 215, 215);
+}
+
+aside ul{
+    font-size: 20px;
+
+}
+
+footer{
+    background-color: rgb(249, 213, 219);
+    min-height: 80px;
+    width: 100%;
+    line-height: 27px;
+    text-align: center;
+    font-variant: small-caps;
+    font-size: 40px;
+    position: fixed;
+    bottom: 0;
+}
+
+.images{
+    width: 100%;
+    height: 180px;
+}
+
+.col-3{
+    width: 30%;
+    background-color: white;
+    padding:2% ;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+
+.boxtin img{
+    width: 100%;
+}
+
+.row::after{
+    content:"";
+    display:table;
+    clear:both;
+
+}
+
+
+
+.hmenu{
+    width: 100%;
+    margin: 0px;
+    padding:0px;  
+    border-radius: 5px;
+    box-shadow: 0 0 5px white;
+    list-style-type:none;
+    background-color: white;
+    height: 40px;   
+}
+
+ul.hmenu>li>a{
+    line-height: 40px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left:40px;
+    text-align: center;
+    color:black;
+    display: block;
+}
+
+
+ul.hmenu>li>a:hover{
+    color:purple;
+    font-weight: bold;
+}
+
+ul.hmenu>li{ 
+    float:left; 
+    margin:0 10px; 
+    position:relative;
+}
+
+ul.hmenu>li>:hover>.sub-menu{
+    display: block;
+}
+
+.sub-menu{
+    width: 100%;
+    margin:0px;
+    padding:0px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orangered;
+    list-style-type: none;
+    position:absolute;
+    padding-right: 150px;
+    display: none;
+
+}
+
+.sub-menu>li>a{
+    display: block;
+    line-height: 30px;
+    border-bottom: 1px dotted orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    padding-left:0px;
+    color:orangered;
+    font-size: 14px;
+}
+
+
+.sub-menu>li>a:hover{
+    display: block;
+    color:red;
+    font-weight: bolder;
+}
+
+.quangcao{
+    background-color: white;
+    width: 270px;
+    height: 260px;
+    padding:20px;
+    margin-top:39px;
+    margin-left:50px;
+    text-align: center;
+   
+}
+
+.quangcao>h2{
+    color:rgb(230, 123, 141);
+    padding-top:0px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.quangcao>video{
+    padding-top: 0px;
+    margin-top: 0px;
+         
+}
+
+.quangcao>img{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logoft>img{
+    float:left;
+}
+
+.logoft>span{
+    float: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #686f7a;
+    margin-top: 30px;
+    margin-left: 10px;
+   
+}
+
+
+
+.anh{
+    float:left;
+    width: 20px;
+    height: 20px;
+}
+
+.anh>img{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+
+.anh1>img{
+    
+    float: right;
+    width: 130px;
+    height: 40px;
+   
+}
+
+
+.left_khung{
+    margin-top: 39px;
+    margin-left:10px;
+    background-color: white;
+    width: 990px;
+    height: 1300px;
+}
+
+.left_khung>p{
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 3px;
+    line-height: 30px;
+    text-align: justify;
+    margin: 5px 5px;
+}
+
+.left_khung>img{
+    margin: 0 270px;
+}
+
+
+
+.quangcao_logo{
+    background-color: white;
+    width: 270px;
+    height: 260px;
+    padding:20px;
+    margin-top:30px;
+    margin-left:50px;
+    text-align: center;
+
+}
+.quangcao_logo>img{
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 10px;    
+}
+
+.quangcao_logo>h2{
+  color:rgb(230, 123, 141);
+    padding-top:0px;
+    margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

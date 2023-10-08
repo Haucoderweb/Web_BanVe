@@ -1,0 +1,28 @@
+.tongbo{
+    margin-left: 400px;
+
+}
+
+
+#nam_1{
+    margin-left: 100px;
+}
+
+.vien{
+    width: 455px; height: 35px;
+    border: 1px solid black;
+}
+.vien>input{
+    margin-top: 10px ;
+    
+
+}
+
+
+.vien2{
+    width: 455px; height: 35px;
+    border: 1px solid black;
+}
+.vien2>input{
+    margin-top: 10px;
+}
